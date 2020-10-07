@@ -1,4 +1,4 @@
-package com.example.addictionbreaker;
+package com.example.addictionbreaker.ui;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.addictionbreaker.R;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyviewHolder> {
 

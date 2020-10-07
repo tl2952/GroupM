@@ -76,7 +76,7 @@ public class ConsumptionInfoActivity extends AppCompatActivity implements DatePi
                     if(isInserted){
                         Toast.makeText(ConsumptionInfoActivity.this, "Data inserted", Toast.LENGTH_LONG).show();
                     }
-                        Intent intent = new Intent(ConsumptionInfoActivity.this, HomeActivity.class);
+                        Intent intent = new Intent(ConsumptionInfoActivity.this, AdictionList.class);
                         startActivity(intent);
                     }
                 }
